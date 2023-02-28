@@ -1,6 +1,6 @@
 @font-face {
     font-family: mukta;
-    src: url(./Fonts/Mukta/Mukta-Regular.ttf);
+    src: url(../fonts/Mukta/Mukta-Regular.ttf);
 }
 
 body {
@@ -58,7 +58,7 @@ div>svg {
     flex-direction: column;
     align-items: center;
     color: white;
-    background-image: url(./Materialer/hero-02.jpg);
+    background-image: url(../img/hero-02.jpg);
     background-size: cover;
     background-position: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -223,7 +223,7 @@ div>svg {
     flex-direction: column;
     align-items: center;
     color: white;
-    background-image: url(./Materialer/budbil1.jpg);
+    background-image: url(../img/budbil1.jpg);
     background-size: cover;
     background-position: right;
     padding-bottom: 25vw;
