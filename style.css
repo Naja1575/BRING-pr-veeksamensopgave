@@ -1,0 +1,293 @@
+@font-face {
+    font-family: mukta;
+    src: url(./Fonts/Mukta/Mukta-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: mukta;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+}
+
+header>svg {
+    margin: 1.5vw;
+    width: 13vw;
+}
+
+header>div {
+    display: flex;
+    flex-direction: row;
+}
+
+div>svg {
+    width: 4vw;
+    margin-right: 1.5vw;
+}
+
+.hero>h2 {
+    font-size: 9vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 11vw;
+}
+
+.hero>p:nth-of-type(1) {
+    font-size: 2.7vw;
+    margin: 0;
+    line-height: 3vw;
+    margin-bottom: 3vw;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url(./Materialer/hero-02.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-top: 23vh;
+    padding-bottom: 26vh;
+}
+
+.mere {
+    background-color: rgb(123, 193, 68);
+    padding: 1vw 5vw;
+    text-shadow: none;
+    border-radius: 1vw;
+    font-size: 2.5vw;
+}
+
+.læs-mere {
+    background-color: rgb(51, 51, 51);
+    padding: 1vw 5vw;
+    border-radius: 1vw;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.tjenester {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: -10%;
+    margin-bottom: 20vw;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 57% 0, 50% 7vw, 43% 0, 0 0);
+    background-color: white;
+}
+
+.tj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15vw;
+}
+
+.tjenester>h2 {
+    font-size: 8vw;
+    margin-top: 15%;
+}
+
+.tj>div {
+    text-align: center;
+    font-size: 2.5vh;
+    line-height: 2vw;
+    font-weight: bold;
+}
+
+.om-bring {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 203, 53);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25vw;
+    margin: 0;
+    margin-top: -10%;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 57% 0, 50% 7vw, 43% 0, 0 0);
+}
+
+.om-bring>h2 {
+    font-size: 8vw;
+    margin-top: 12vw;
+}
+
+.om-bring>div {
+    font-size: 2.5vw;
+    margin: 4vw;
+    margin-bottom: 0;
+}
+
+.e-handel {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(123, 193, 68);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25vw;
+    color: white;
+    margin: 0;
+    margin-top: -10%;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 57% 0, 50% 7vw, 43% 0, 0 0);
+}
+
+.e-handel>h2 {
+    font-size: 8vw;
+    margin-top: 12vw;
+}
+
+.e-handel>p {
+    font-size: 4vw;
+    margin: 4vw;
+    text-align: center;
+}
+
+.modtagerservice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 25vw;
+    margin: 0;
+    margin-top: -10%;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 57% 0, 50% 7vw, 43% 0, 0 0);
+}
+
+.modtagerservice>h2 {
+    font-size: 8vw;
+    margin-top: 12vw;
+}
+
+.modtagerservice>p {
+    font-size: 4vw;
+    margin: 4vw;
+    text-align: center;
+}
+
+.kundeservice {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 220, 72);
+    padding-bottom: 25vw;
+    margin: 0;
+    margin-top: -10%;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 57% 0, 50% 7vw, 43% 0, 0 0);
+}
+
+.kundeservice>h2 {
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 12vw;
+}
+
+.kundeservice>p {
+    font-size: 2.5vw;
+    margin: 0 4vw;
+}
+
+.kundeservice>ul {
+    margin-left: 4vw;
+}
+
+.kundeservice>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kundeservice img {
+    margin: 4vw 0;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url(./Materialer/budbil1.jpg);
+    background-size: cover;
+    background-position: right;
+    padding-bottom: 25vw;
+    margin-top: -10%;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 57% 0, 50% 7vw, 43% 0, 0 0);
+
+}
+
+.jobs>h2 {
+    font-size: 11.5vw;
+    text-align: center;
+    line-height: 14vw;
+    margin-top: 12vw;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding-bottom: 14vw;
+    margin-top: -10%;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 57% 0, 50% 7vw, 43% 0, 0 0);
+}
+
+footer h2 {
+    font-size: 7vw;
+    text-align: center;
+    margin-top: 12vw;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer div {
+    margin-left: 4vw;
+}
+
+footer h3 {
+    color: rgb(123, 193, 68);
+    font-size: 3.2vw;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 4vw;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.facebook {
+    width: 11vw;
+}
+
+.facebook:hover {
+    
+}
+
+.twitter{
+    width: 11vw;
+}
+
+.twitter:hover{
+    img
+}
