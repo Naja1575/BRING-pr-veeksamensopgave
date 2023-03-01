@@ -1,6 +1,6 @@
 @font-face {
     font-family: mukta;
-    src: url(../fonts/Mukta/Mukta-Regular.ttf);
+    src: url(./../fonts/Mukta/Mukta-Regular.ttf);
 }
 
 body {
@@ -16,7 +16,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: -webkit-sticky;
     position: sticky;
     z-index: 1;
     top: 0;
@@ -284,9 +283,38 @@ footer h3 {
     
 }
 
-.twitter{
-    width: 11vw;
+.facebook{
+    width: 15vw;
 }
 
-.twitter:hover{
+.facebook>path:nth-of-type(1){
+    color: rgb(100, 100, 100);
+}
+
+.facebook>path:nth-of-type(1):hover{
+    color: #3F51B5;
+}
+
+.twitter{
+    width: 12vw;
+}
+
+.twitter>path:nth-of-type(1){
+    color: rgb(100, 100, 100);
+}
+
+.twitter>path:nth-of-type(1):hover{
+    color:#5999d1;
+}
+
+.burger{
+    
+}
+
+.navi{
+    transform: translateZ(-2);
+}
+
+.burger:checked + .navi{
+    transform: translateZ(0);
 }
